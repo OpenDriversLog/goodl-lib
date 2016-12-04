@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "query": "Lambertusstraße 20, 41569 Rommerskirchen",
+    "queryType": "NON_NEAR",
+    "queryTime": 609,
+    "numResults": 2,
+    "offset": 0,
+    "totalResults": 3,
+    "fuzzyLevel": 2
+  },
+  "results": [
+    {
+      "type": "Point Address",
+      "id": 12353350,
+      "score": 7,
+      "address": {
+        "streetNumber": "20",
+        "streetName": "Lambertusstraße",
+        "municipalitySubdivision": "Ramrath, Villau",
+        "municipality": "Rommerskirchen",
+        "countrySecondarySubdivision": "Rhein-Kreis Neuss",
+        "countrySubdivision": "NW",
+        "postalCode": "41569",
+        "countryCode": "DE",
+        "country": "Germany",
+        "countryCodeISO3": "DEU",
+        "freeformAddress": "Lambertusstraße 20, 41569, Ramrath, NW"
+      },
+      "position": {
+        "lat": 51.09777,
+        "lon": 6.67695
+      }
+    },
+    {
+      "type": "Point Address",
+      "id": 12353355,
+      "score": 7,
+      "address": {
+        "streetNumber": "20A",
+        "streetName": "Lambertusstraße",
+        "municipalitySubdivision": "Ramrath, Villau",
+        "municipality": "Rommerskirchen",
+        "countrySecondarySubdivision": "Rhein-Kreis Neuss",
+        "countrySubdivision": "NW",
+        "postalCode": "41569",
+        "countryCode": "DE",
+        "country": "Germany",
+        "countryCodeISO3": "DEU",
+        "freeformAddress": "Lambertusstraße 20A, 41569, Ramrath, NW"
+      },
+      "position": {
+        "lat": 51.09778,
+        "lon": 6.67696
+      }
+    }
+  ]
+}

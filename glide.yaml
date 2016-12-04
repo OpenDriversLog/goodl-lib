@@ -1,0 +1,55 @@
+package: main
+ignore:
+  - github.com/OpenDriversLog/goodl-lib
+  - github.com/OpenDriversLog/webfw
+  - github.com/OpenDriversLog/redistore
+  - github.com/OpenDriversLog/odl-geocoder
+import:
+  - package: github.com/mattn/go-sqlite3
+  - package: github.com/kellydunn/golang-geo
+    version: 9b75a0c43d4f209ac8a7c62331e4868acdc045a5
+  - package: github.com/fschl/sql-migrate
+    version: 1aa45657d652ce5d2d68e0e8c5c12e3de5ac8879
+  - package: github.com/qiniu/iconv
+  - package: github.com/jung-kurt/gofpdf
+    version: 02db05c2cda70eb7ae66c31af83b355917b9694b
+  - package: github.com/erikstmartin/go-testdb
+    version: e91c57bcc918671f042bb1722841946bd376dcde
+  - package: github.com/kylelemons/go-gypsy
+    version: 42fc2c7ee9b8bd0ff636cd2d7a8c0a49491044c5
+    subpackages:
+      - /yaml
+  - package: github.com/lib/pq
+    version: b269bd035a727d6c1081f76e7a239a1b00674c40
+  - package: github.com/ziutek/mymysql
+    version: b559dddd7e2a2ce596f2058bc399805102719eac
+    subpackages:
+      - /godrv
+  - package: github.com/go-gorp/gorp
+    version: c44345f52fc81d27c47e6b592dedaf8c28a972eb
+  - package: github.com/rubenv/sql-migrate
+    version: 53184e1edfb4f9655b0fa8dd2c23e7763f452bda
+    subpackages:
+      - /sqlparse
+  - package: github.com/denisenkom/go-mssqldb
+    version: 06717bac1d29a4392721abdd7b43c5de6696d33b
+  - package: github.com/go-sql-driver/mysql
+    version: 527bcd55aab2e53314f1a150922560174b493034
+  - package: github.com/mitchellh/cli
+    version: 8102d0ed5ea2709ade1243798785888175f6e415
+  - package: github.com/olekukonko/tablewriter
+    version: b9346ac189c55dd419f85c7ad2cd56f810bf19d6
+  - package: gopkg.in/yaml.v1
+    version: 9f9df34309c04878acc86042b16630b0f696e1de
+  - package: github.com/boombuler/barcode
+    version: 63f4aa2c46ebfac93952223a52df876f30b064c0
+  - package: golang.org/x/crypto
+    version: aedad9a179ec1ea11b7064c57cbc6dc30d7724ec
+  - package: gopkg.in/gorp.v1
+    version: c87af80f3cc5036b55b83d77171e156791085e2e
+  - package: golang.org/x/oauth2
+  - package: golang.org/x/net
+    subpackages:
+      - /context
+  - package: github.com/Compufreak345/dbg
+  - package: github.com/Compufreak345/go-i18n

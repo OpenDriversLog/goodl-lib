@@ -1,0 +1,18 @@
+/bin
+/gen
+/res
+
+/Dockerfile
+vendor/
+
+# test binary files
+*.test
+*upgrade-from-old*.db
+*.coverprofile
+*journal
+
+.DS_Store
+
+*.db-shm
+
+*.db-wal

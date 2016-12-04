@@ -1,0 +1,96 @@
+hash: 47441df006bb295b9c09eab1a3925ff9ba4a96254c489bf19c8a3beec3554009
+updated: 2016-11-27T18:37:58.231385274Z
+imports:
+- name: cloud.google.com/go
+  version: b6b89b673b4cb9a472803466ee4ccd1fee6acfbd
+  subpackages:
+  - compute/metadata
+  - internal
+- name: github.com/boombuler/barcode
+  version: 63f4aa2c46ebfac93952223a52df876f30b064c0
+- name: github.com/Compufreak345/dbg
+  version: ddf5806c42e22e1ce66f2664134254e1f152abd4
+- name: github.com/Compufreak345/go-i18n
+  version: 88b0e8476f2290f224117f30d8b353adf25e4bd2
+  subpackages:
+  - i18n
+  - i18n/bundle
+  - i18n/language
+  - i18n/translation
+- name: github.com/denisenkom/go-mssqldb
+  version: 06717bac1d29a4392721abdd7b43c5de6696d33b
+- name: github.com/erikstmartin/go-testdb
+  version: e91c57bcc918671f042bb1722841946bd376dcde
+- name: github.com/fschl/sql-migrate
+  version: 1aa45657d652ce5d2d68e0e8c5c12e3de5ac8879
+- name: github.com/go-gorp/gorp
+  version: c44345f52fc81d27c47e6b592dedaf8c28a972eb
+- name: github.com/go-sql-driver/mysql
+  version: 527bcd55aab2e53314f1a150922560174b493034
+- name: github.com/golang/protobuf
+  version: 7390af9dcd3c33042ebaf2474a1724a83cf1a7e6
+  subpackages:
+  - proto
+- name: github.com/jung-kurt/gofpdf
+  version: 02db05c2cda70eb7ae66c31af83b355917b9694b
+- name: github.com/kellydunn/golang-geo
+  version: 9b75a0c43d4f209ac8a7c62331e4868acdc045a5
+- name: github.com/kylelemons/go-gypsy
+  version: 42fc2c7ee9b8bd0ff636cd2d7a8c0a49491044c5
+  subpackages:
+  - yaml
+- name: github.com/lib/pq
+  version: b269bd035a727d6c1081f76e7a239a1b00674c40
+  subpackages:
+  - oid
+- name: github.com/mattn/go-sqlite3
+  version: c3e9588849195eefa783417c3a53d092f6e93526
+- name: github.com/mitchellh/cli
+  version: 8102d0ed5ea2709ade1243798785888175f6e415
+- name: github.com/olekukonko/tablewriter
+  version: b9346ac189c55dd419f85c7ad2cd56f810bf19d6
+- name: github.com/qiniu/iconv
+  version: e9ee0ddd1a3a29262740aa08ed8ac740f23bc4a0
+- name: github.com/rubenv/sql-migrate
+  version: 53184e1edfb4f9655b0fa8dd2c23e7763f452bda
+  subpackages:
+  - sqlparse
+- name: github.com/ziutek/mymysql
+  version: b559dddd7e2a2ce596f2058bc399805102719eac
+  subpackages:
+  - godrv
+  - mysql
+  - native
+- name: golang.org/x/crypto
+  version: aedad9a179ec1ea11b7064c57cbc6dc30d7724ec
+- name: golang.org/x/net
+  version: 07b51741c1d6423d4a6abab1c49940ec09cb1aaf
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/oauth2
+  version: 4784bb855e56a530f1ce5d788959359ed6cb4a16
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: google.golang.org/appengine
+  version: e951d3868b377b14f4e60efa3a301532ee3c1ebf
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: gopkg.in/gorp.v1
+  version: c87af80f3cc5036b55b83d77171e156791085e2e
+- name: gopkg.in/yaml.v1
+  version: 9f9df34309c04878acc86042b16630b0f696e1de
+- name: gopkg.in/yaml.v2
+  version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
+testImports: []
